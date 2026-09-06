@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <form id="form" class="form">
+            <h1>Student Registration Form</h1>
+        <div class="formcontainer">
+            <label for="">Name:</label>
+            <input id="name" type="text" placeholder="e.g Akilan">
+            <div class="error-msg" id="nameerror"></div>
+        </div>
+        <div class="formcontainer">
+            <label for="">Email:</label>
+            <input id="email" type="email" placeholder="e.g akilan@gmail.com">
+            <div class="error-msg" id="emailerror"></div>
+        </div>
+        <div class="formcontainer">
+            <label for="">Password:</label>
+            <input id="password" type="password" placeholder="e.g 12***67">
+            <div class="error-msg" id="passworderror"></div>
+        </div>
+        <div class="formcontainer">
+            <label for="">Bio:</label>
+            <textarea name="" id="bio" maxlength="200" placeholder="Tell us about your self"></textarea>
+            <div class="error-msg" id="bioerror"></div>
+            <div id="charcounter" class="charcounter">0 / 200</div>
+        </div>
+        <button id="submitbtn">Submit</button>   
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
